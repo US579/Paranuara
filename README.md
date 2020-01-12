@@ -18,7 +18,7 @@ Alternatively, you may use the makefile under root directory to build by running
 
 ## External Libraries
 
-External libraries are specified inrequirements.txt 
+External libraries are specified in requirements.txt 
 
 
 ## Run

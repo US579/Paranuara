@@ -7,7 +7,7 @@ To build the project, alias python=python3 if the python3.6 needs to be run as p
 
 Goto root/ directory and run sh prepare.sh to build.
 
-`* make sure the port 5000 is not using`
+`* make sure the port 8000 is not using`
 ```
 >> sh run.sh
 ```
@@ -23,7 +23,7 @@ External libraries are specified inrequirements.txt
 
 ## Run
 
-After building the project, to run as DEVELOPMENT, run `sh run.sh` which will startup a development server on http://localhost:5000/api/
+After building the project, to run as DEVELOPMENT, run `sh run.sh` which will startup a development server on http://localhost:8000/api/
 
 ## APIs
 ### List all the employees belong to specific company

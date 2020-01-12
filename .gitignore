@@ -1,0 +1,8 @@
+*.aux
+*.log
+*.out
+__pycache__
+/Api/migrations
+venv
+db.sqlite3
+.gitignore.swp

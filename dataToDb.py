@@ -45,6 +45,8 @@ def people2db(name):
     people.close()
     
 if __name__ == "__main__":
+    print('import start......')
     company2db('companies.json')
     people2db('people.json')
+    print('import done!')
 

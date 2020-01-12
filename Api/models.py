@@ -13,7 +13,7 @@ class People(models.Model):
     has_died = models.BooleanField(default=False)
     picture = models.CharField(max_length=50)
     balance = models.DecimalField(max_digits=10, decimal_places=2, default=0)
-    age = models.IntegerField()
+    age = models.IntegerField(null=True)
     eyeColor = models.CharField(max_length=50)
     name = models.CharField(max_length=50)
     gender = models.CharField(max_length=30)

@@ -3,6 +3,6 @@
 *.out
 __pycache__
 /Api/migrations
-venv
+env
 db.sqlite3
 .gitignore.swp

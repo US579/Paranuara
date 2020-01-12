@@ -16,7 +16,7 @@ class SameFriendsView(views.APIView):
     def get(self, request, pk1, pk2, format=None):
         people = People.objects.filter(index__in=(pk1, pk2))
         if people.count() != 2:
-            return Response({'No same friends'})
+            return Response({'No same friends'},status=404)
         p1 = list(map(lambda x: int(x), people[0].friends.split(',')))
         p2 = list(map(lambda x: int(x), people[1].friends.split(',')))
         inter = list(set(p1).intersection(set(p2)))

@@ -27,7 +27,7 @@ After building the project, to run as DEVELOPMENT, run `sh run.sh` which will st
 
 ## APIs
 ### List all the employees belong to specific company
-- http://127.0.0.1:8000/v1/api/employees/{index}
+- http://127.0.0.1:8000/v1/api/employees/{company_index}
 - permission: any
 - method: `GET`
 - header fields: `None`
@@ -40,7 +40,7 @@ After building the project, to run as DEVELOPMENT, run `sh run.sh` which will st
 
 
 ### Given 2 people, provide their information (Name, Age, Address, phone) and the list of their friends in common which have brown eyes and are still alive.
-http://127.0.0.1:8000/v1/api/samefriends/1/2/
+http://127.0.0.1:8000/v1/api/samefriends/{people_index1}/{people_index2}/
 - permission: any
 - method: `GET`
 - header fields: `None`
@@ -50,7 +50,7 @@ http://127.0.0.1:8000/v1/api/samefriends/1/2/
 `HTTP 404` or `HTTP 200`
 
 ### Given 1 people, provide a list of fruits and vegetables they like.
-http://127.0.0.1:8000/v1/api/fruit_and_vegetable/{index}/
+http://127.0.0.1:8000/v1/api/fruit_and_vegetable/{people_index}/
 - permission: any
 - method: `GET`
 - header fields: `None`

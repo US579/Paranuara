@@ -5,7 +5,7 @@
 
 To build the project, alias python=python3 if the python3.6 needs to be run as python3 on the machine.
 
-Go to root/ directory and run sh prepare.sh to build.
+Go to root/ directory and run sh run.sh to build.
 
 `* make sure the port 8000 is not using`
 ```
